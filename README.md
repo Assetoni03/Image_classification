@@ -21,7 +21,7 @@ API Endpoints
   
 2. Run the API using Uvicorn:
   ```
-  uvicorn your_api_file_name:app --host 0.0.0.0 --port 8000
+  uvicorn app:app --host 0.0.0.0 --port 8000
   ```
 3. You can now access the API at http://localhost:8000.
 
